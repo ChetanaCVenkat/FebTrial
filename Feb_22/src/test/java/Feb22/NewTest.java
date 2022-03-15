@@ -31,6 +31,7 @@ public class NewTest {
 		String baseUrl = "http://demo.guru99.com/test/newtours/";
 		String expectedTitle = "Welcome: Mercury Touars";
 		String actualTitle = "";
+		System.out.println("Chetana tester !!!!");
 		log.info("Hi chetana");
 		// launch Fire fox and direct it to the Base URL
 		driver.get(baseUrl);
@@ -45,7 +46,7 @@ public class NewTest {
 		if (actualTitle.contentEquals(expectedTitle)) {
 			System.out.println("Test Passed!");
 		} else {
-			System.out.println("Test Failed");
+			System.out.println("Test Failed!Testing with Adobe expert dev");
 		}
 	}
 }
